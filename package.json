@@ -27,7 +27,11 @@
     "@dcloudio/uni-mp-toutiao": "*",
     "@dcloudio/uni-mp-weixin": "*",
     "flyio": "^0.6.2",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "material-design-icons": "^3.0.1",
     "regenerator-runtime": "^0.12.1",
+    "vant": "^1.6.19",
     "vue": "^2.6.10",
     "vuex": "^3.0.1"
   },

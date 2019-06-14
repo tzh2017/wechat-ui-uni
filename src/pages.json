@@ -1,16 +1,62 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/chat/chat",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/contacts/contacts",
+			"style": {
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/explore/explore",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "我"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "wechat-ui-uni",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#2a9939",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/chat/chat",
+				"iconPath": "static/tab_chat.png",
+				"selectedIconPath": "static/tab_chat_sel.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/contacts/contacts",
+				"iconPath": "static/tab_contact.png",
+				"selectedIconPath": "static/tab_contact_sel.png",
+				"text": "通讯录"
+			}, {
+				"pagePath": "pages/explore/explore",
+				"iconPath": "static/tab_explore.png",
+				"selectedIconPath": "static/tab_explore_sel.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/person/person",
+				"iconPath": "static/tab_person.png",
+				"selectedIconPath": "static/tab_person_sel.png",
+				"text": "我"
+			}
+		]
 	}
 }
