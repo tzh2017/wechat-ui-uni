@@ -2,6 +2,7 @@
 <template>
   <view>
     <text>explore</text>
+    <text>hi explore</text>
   </view>
 </template>
 
